@@ -79,7 +79,7 @@ jobs:
 
     - name: Configuration Customization - Build_x86_64_Passwall
       env:
-        CONFIG_FILE: 'x86_64-passwall.conf'
+        CONFIG_FILE: 'x86_64-Passwall.conf'
       run: |
         [ -e $CONFIG_FILE ] && mv $CONFIG_FILE openwrt/.config
         # chmod +x ./customize.sh && ./customize.sh
